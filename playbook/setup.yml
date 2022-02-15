@@ -3,7 +3,7 @@
   hosts: all
   become: true
   vars:
-    nginx_listen_port: 8080
+    nginx_port: 8080
 
   tasks:
     - name: Install EPEL Repo
